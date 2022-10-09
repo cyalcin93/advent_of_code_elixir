@@ -21,13 +21,4 @@ defmodule AoC202101P2 do
       true -> number_of_increases
     end
   end
-
-  def online_solution do
-    File.stream!("test/AoC202101_part_1_input.txt")
-    |> Stream.map(&String.trim/1)
-    |> Stream.map(&String.to_integer/1)
-    |> Stream.chunk_every(2, 1, :discard)
-    |> Enum.count(fn [a, b] -> a < b end)
-  end
-
 end
