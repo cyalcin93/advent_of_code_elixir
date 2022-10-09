@@ -1,4 +1,4 @@
-defmodule AdventOfCodeElixir202101Test do
+defmodule AoC202101Test do
   use ExUnit.Case
   doctest AoC202101P1
   doctest AoC202101P2
