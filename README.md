@@ -1,6 +1,6 @@
 # AdventOfCodeElixir
 
-**TODO: Add description**
+My solutions to advent of code in Elixir which is a new programming language for me.
 
 ## Installation
 
